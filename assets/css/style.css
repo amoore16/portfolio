@@ -1,0 +1,82 @@
+body {
+    padding-top: 70px;
+    padding-bottom: 20px;
+    line-height: 1.6em;
+    font-family: 'Montserrat', sans-serif;
+    background: #063059;
+    color: rgba(255, 255, 255, .75);
+    line-height: 1.6em;
+    position: relative;
+  }
+  h1 {
+    font-weight: 600;
+    font-size: 3em;
+  }
+  
+  #about {
+    padding: 10%;
+    background: rgba(8, 77, 144, 1);
+   /*  margin-top: 20px; */
+  }
+  
+  
+  #portfolio {
+    padding: 10%;
+    background: rgba(8, 62, 114, 1);
+    margin: 20px auto;
+    
+  }
+  #contact {
+    padding: 10%;
+    background: rgba(8, 77, 144, 1);
+    margin-bottom: 100px;
+  }
+  .thumbnail {
+    background-color: rgba(9, 38, 66, 1);
+  }
+  .thumbnail .caption {
+    color: rgba(255, 255, 255, .5);
+  }
+  .navbar-default {
+    background-color: rgba(9, 38, 66, 1);
+  }
+  .navbar-default .navbar-nav>li>a:hover {
+      color: rgba(255, 255, 255, .5);
+  }
+  
+  .navbar-default .navbar-brand, .navbar-default .navbar-nav li a {
+    color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, .5)
+  }
+  
+  .navbar-default .navbar-toggle .icon-bar {
+      background-color: rgba(255, 255, 255, .5);
+  }
+  
+  .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: rgba(255, 255, 255, .8);
+  }
+  
+  #profile-pic {
+    max-height: 250px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: solid 2px rgba(255, 255, 255, .8)
+  }
+  
+  #about a, #about a:visited{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+  }
+  
+  #contact button {
+    margin: 5px auto;
+    width: 100%;
+    max-width: 300px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(8, 62, 114, 1); 
+  }
+  
+  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+      background-color: #063059;
+  }
